@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <section class="top-container">
+    <form>
+        <section class="player-section">
+            <fieldset>
+                <legend>Player</legend>
+                <ul>
+                    <li>
+                        <label for="player">
+                            <input type="radio" name="player" value="rock" id="rock">Rock
+                        </label>
+                    </li>
+                    <li>
+                        <label for="player">
+                            <input type="radio" name="player" value="paper" id="paper">Paper
+                        </label>
+                    </li>
+                    <li>
+                        <label for="player">
+                            <input type="radio" name="player" value="scissors" id="scissors">Scissors
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <section class="submit-button">
+            <button id="submit">Submit</button>
+        </section>
+        <section class="clear-button">
+            <button id="clear">Clear</button>
+        </section>
+        <section class="retrieve-button">
+            <button id="retrieve">Retrieve</button>
+        </section>
+    </form>
+    <form>
+        <section class="score-counter">
+            <fieldset>
+                <legend>Score</legend>
+                <ul>
+                    <li>
+                        <label for="player-score">Player</label>
+                        <output name="player-score" id="player-score">0</output>
+                    </li>
+                    <li>
+                        <label for="computer-score">Computer</label>
+                        <output name="computer-score" id="computer-score">0</output>
+                    </li>
+                    <li>
+                        <label for="tie-score">Tie</label>
+                        <output name="tie-score" id="tie-score">0</output>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+    </form>
+    </section>
+    <section class="results-container">
+        <section class="results">
+            <h2>Results</h2>
+            <ul>
+                <li>
+                    <label for="player-choice">Player</label>
+                    <output name="player-choice" id="player-choice"></output>
+                </li>
+                <li>
+                    <label for="computer-choice">Computer</label>
+                    <output name="computer-choice" id="computer-choice"></output>
+                </li>
+                <li>
+                    <label for="winner">Winner</label>
+                    <output name="winner" id="winner"></output>
+                </li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>

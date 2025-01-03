@@ -1,0 +1,19 @@
+/*body {
+    display: flex;
+}*/
+
+.top-container {
+    display: flex;
+    width: 100%;
+    flex: 1 0 auto;
+    margin: 0 0 50px 0;
+}
+
+.top-container form {
+    width: 50%;
+}
+
+/*.score-counter {
+    display: flex;
+    justify-content: center;
+}*/
