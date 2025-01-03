@@ -1,51 +1,31 @@
-# Module 03 Mini-Project: Rock, Paper, Scissors
+# Rock, Paper, Scissors
 
-In this activity, you will work with a group to build a game using only JavaScript.
+## Description
 
-## Instructions
+A basic Rock, Paper, Scissors game played against the computer - made to demonstrate JavaScript knowledge.
 
-The completed application should meet the following criteria:
+## Usage
 
-* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
+* Select an option and press Submit to play.
 
-* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+* Results of the individual match are shown below.
 
-* As a user, I expect the computer to choose R, P, or S in return.
+* Overall scores are shown to the right.
 
-* As a user, I want to be prompted when I enter an invalid choice.
+* Overall score records are stored locally and can be cleared with the 'Clear' button.
 
-* As a user, I want the option to play again whether I win or lose.
+* If you close the browser and re-open the page, press 'Retrieve' to retrieve your overall score records.
 
-* As a user, I want to see my total wins, ties, and losses after I have finished playing.
+## Credits
 
-* As a user, I want to see how many times I chose each option after I have finished playing.
+Thanks to Oleksii Trekhleb for providing a [JavaScript weighted random algorithm](https://dev.to/trekhleb/weighted-random-algorithm-in-javascript-1pdc) on dev.to which was modified to be used in this application.
 
-### Specifications
+## License
 
-* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
+Copyright 2024 Anthony Schwab
 
-* The computer's selection must be random to ensure a fair game.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## 💡 Notes
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Refer to the documentation:
-
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
-
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
-
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you customize the appearance of the `alert()`, `confirm()`, and `prompt()` dialog boxes?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
